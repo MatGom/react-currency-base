@@ -27,14 +27,14 @@ const CurrencyForm = ({ action }) => {
       </label>
       <label>
         <span>From</span>
-        <Select data-testid="from-select" onChange={e => setFrom(e.target.value)}>
+        <Select data-testid='from-select' onChange={e => setFrom(e.target.value)}>
           <option value='PLN'>PLN</option>
           <option value='USD'>USD</option>
         </Select>
       </label>
       <label>
         <span>To</span>
-        <Select data-testid="to-select" onChange={e => setTo(e.target.value)}>
+        <Select data-testid='to-select' onChange={e => setTo(e.target.value)}>
           <option value='PLN'>PLN</option>
           <option value='USD'>USD</option>
         </Select>
